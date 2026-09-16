@@ -13,6 +13,7 @@ import numpy as np
 from rank_bm25 import BM25Okapi
 from workload import documents, stream, dump_json
 from runtime import Runtime, SCORE_PREFIX, ANSWER_PREFIX, document_text, parse_answer
+from retrieval import Index
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'downloads/earm/src'))
@@ -52,11 +53,11 @@ def run(args):
         version=cases[0]['version'];tick=time.monotonic()
         docs=documents(version);by_id={d['id']:d for d in docs}
         changed={d['id'] for d,b in zip(docs,base) if d['sha256']!=b['sha256']}
-        index=BM25Okapi([tokens(d['title']+' '+d['content']) for d in docs])
+        index=Index(docs)
         revision_seconds=time.monotonic()-tick
         for qi,case in enumerate(cases):
             q=case['question'];tick=time.monotonic()
-            semantic=dict(zip(by_id,map(float,index.get_scores(tokens(q)))))
+            semantic=index.scores(q,args.entity)
             lexical=sorted(by_id,key=lambda x:(-semantic[x],x))
             lexical_seconds=time.monotonic()-tick
             scores={};scorecalls={};ranks={};costs={};diag={}
@@ -113,7 +114,8 @@ def run(args):
             for arm,selected in ranks.items():
                 # Canonical context order isolates selection from document-order effects.
                 selected=sorted(selected)
-                call=rt.call('answer',ANSWER_PREFIX+'\n\n'.join(document_text(by_id[mid]) for mid in selected),q,320)
+                answer_query=q+('\nShow the applicable numeric rule and all three calculations before your final JSON; do not skip them.' if args.explain else '')
+                call=rt.call('answer',ANSWER_PREFIX+'\n\n'.join(document_text(by_id[mid]) for mid in selected),answer_query,320)
                 parsed=parse_answer(call['raw'])
                 answers[arm]=dict(selected=selected,answer=parsed,correct=correct(parsed,case['gold']),
                                   stale=case['affected'] and correct(parsed,case['old_gold']),
@@ -146,4 +148,5 @@ if __name__=='__main__':
     p.add_argument('--initial',type=int,default=16);p.add_argument('--after',type=int,default=8)
     p.add_argument('--rank',type=int,default=2);p.add_argument('--top-k',type=int,default=2)
     p.add_argument('--exclude',nargs='*',default=[])
+    p.add_argument('--entity',action='store_true');p.add_argument('--explain',action='store_true')
     run(p.parse_args())
