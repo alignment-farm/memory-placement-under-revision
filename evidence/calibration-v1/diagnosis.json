@@ -1,0 +1,22 @@
+[
+  {
+    "prompt": "What is 2 + 2?",
+    "answer": "2 + 2 = 4.",
+    "seconds": 0.6347202500037383
+  },
+  {
+    "prompt": "Is 700 greater than or equal to 625? Explain your comparison.",
+    "answer": "Yes, 700 is greater than 625.\n\n**Explanation:**\n\nTo compare 700 and 625, we look at their values digit by digit, starting from the leftmost digit (the hundreds place):\n\n- Both numbers are three-digit numbers.\n- The hundreds digit of 700 is **7**, and the hundreds digit of 625 is **6**.\n\nSince 7 is greater than 6, we can immediately conclude that:\n\n**700 > 625**\n\nEven without looking at the remaining digits, the difference in the hundreds place is enough to determine that 700 is greater.\n\nAdditionally, the difference between them is:\n\n700 \u2212 625 = 75\n\nThis positive difference confirms that 700 is greater than 625.\n\n\u2705 Therefore, **700 is greater than 625**, so it is",
+    "seconds": 3.447622332998435
+  },
+  {
+    "prompt": "Document: Blue Account fee waiver requires a minimum daily balance of $625. Customer minimum daily balance: $700. First compare the balance with the threshold, then decide whether the fee is waived. Explain briefly and finish with JSON {\"waived\": true} or {\"waived\": false}.",
+    "answer": "The customer's minimum daily balance is $700, and the Blue Account fee waiver requires a minimum daily balance of $625. Since $700 is greater than $625, the balance meets or exceeds the threshold. Therefore, the fee is waived.\n\n{\"waived\": true}",
+    "seconds": 1.306521624996094
+  },
+  {
+    "prompt": "Document: Blue Account fee waiver requires a minimum daily balance of $625. Customer minimum daily balance: $500. First compare the balance with the threshold, then decide whether the fee is waived. Explain briefly and finish with JSON {\"waived\": true} or {\"waived\": false}.",
+    "answer": "The minimum daily balance required for the Blue Account fee waiver is $625. The customer's minimum daily balance is $500. Since $500 is less than $625, the fee is not waived.\n\n{\"waived\": false}",
+    "seconds": 1.148925874993438
+  }
+]

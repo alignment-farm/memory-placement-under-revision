@@ -1,0 +1,6 @@
+{
+  "status": "failed_before_inference",
+  "error": "Duplicate requests assertion: stable-001 and content_narrow-007 sampled the same three Dark Green ages.",
+  "physical_model_calls": 0,
+  "repair": "Use deterministic rejection sampling against all earlier request strings; fresh runs also exclude development requests. No quality result informed this repair."
+}

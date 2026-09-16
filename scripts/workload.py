@@ -65,13 +65,20 @@ def make_case(rng, idx, family, shifted, version, prefix):
                 gold=gold,old_gold=old,affected=gold!=old,
                 supports=["doc_checking_accounts_"+x for x in support])
 
-def stream(seed, n, version="v0", shifted=False, prefix="stable"):
+def stream(seed, n, version="v0", shifted=False, prefix="stable", seen=None):
     rng=random.Random(seed)
     families=list(range(4))*(n//4)
     assert len(families)==n
     rng.shuffle(families)
     # In shifted streams, every fourth request remains in the old family.
-    return [make_case(rng,i,f,shifted and i%4!=0,version,prefix) for i,f in enumerate(families)]
+    seen=set() if seen is None else seen
+    cases=[]
+    for i,f in enumerate(families):
+        while True:
+            case=make_case(rng,i,f,shifted and i%4!=0,version,prefix)
+            if case['question'] not in seen:break
+        seen.add(case['question']);cases.append(case)
+    return cases
 
 def dump_json(path, data):
     Path(path).write_text(json.dumps(data,indent=2,sort_keys=True)+"\n")

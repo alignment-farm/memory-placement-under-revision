@@ -1,0 +1,21 @@
+{
+  "rows": [
+    {
+      "prompt": "Rate whether the document provides evidence needed to answer the question. Output only a number: 0 = unrelated, 0.5 = partially useful, 1 = directly answers. Question: Is the Blue Account monthly fee waived for a minimum daily balance of $700? Document: Blue Account fee waiver requires a minimum daily balance of $625. Score:",
+      "answer": "1",
+      "seconds": 1.8312707919976674
+    },
+    {
+      "prompt": "Rate whether the document provides evidence needed to answer the question. Output only a number: 0 = unrelated, 0.5 = partially useful, 1 = directly answers. Question: Is the Blue Account monthly fee waived for a minimum daily balance of $700? Document: Purple Account includes six airport lounge visits each year. Score:",
+      "answer": "0",
+      "seconds": 0.4265759160043672
+    },
+    {
+      "prompt": "Use only the document. Return JSON with key \"answer\". Question: Is the Blue Account monthly fee waived for a minimum daily balance of $700? Document: Blue Account fee waiver requires a minimum daily balance of $625.",
+      "answer": "{\"answer\": \"No\"}",
+      "seconds": 0.3108691249944968
+    }
+  ],
+  "seconds": 4.276849957997911,
+  "peak_bytes": 8164867528
+}

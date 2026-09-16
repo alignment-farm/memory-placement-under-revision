@@ -1,0 +1,10 @@
+{
+  "model": "docker.io/ai/qwen3.8:27b-q4_K_M",
+  "weight_digest": "f04d0a543b642a6f0d06590973b124bc4e8700ddf7e99b669ec6c4ab1ef561ef",
+  "fingerprint": "b1-72874f5",
+  "probes": [
+    {"instruction": "Reply with only a relevance score from 0 to 1.", "question": "Is the Blue Account monthly fee waived for a minimum balance of $700?", "document": "Blue Account waiver requires minimum daily balance $625.", "response": "0", "prompt_tokens": 63, "completion_tokens": 2, "prompt_ms": 942.977, "predicted_ms": 55.706},
+    {"instruction": "Rate whether the document provides evidence needed to answer the question. Output only a number: 0 = unrelated, 0.5 = partially useful, 1 = directly answers.", "question": "Is the Blue Account monthly fee waived for a minimum daily balance of $700?", "document": "Blue Account fee waiver requires a minimum daily balance of $625.", "response": "0", "prompt_tokens": 87, "completion_tokens": 2, "prompt_ms": 771.933, "predicted_ms": 54.695}
+  ],
+  "provenance": "Transcribed from raw curl tool results; these were preliminary service checks, not workload observations. No conclusion about general model capability."
+}

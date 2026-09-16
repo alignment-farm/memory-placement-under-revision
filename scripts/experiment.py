@@ -34,8 +34,11 @@ def run(args):
     dump_json(out/'manifest.json',manifest)
     base=documents()
     for v in ('v0','narrow','broad'):dump_json(out/f'documents-{v}.json',documents(v))
-    initial=stream(args.seed,args.initial,prefix='acquire')
-    branches={name:stream(args.seed+100+i,args.after,version=v,shifted=s,prefix=name)
+    seen=set()
+    for path in args.exclude:
+        seen.update(c['question'] for c in json.loads(Path(path).read_text()))
+    initial=stream(args.seed,args.initial,prefix='acquire',seen=seen)
+    branches={name:stream(args.seed+100+i,args.after,version=v,shifted=s,prefix=name,seen=seen)
               for i,(name,v,s) in enumerate([('stable','v0',False),('content_narrow','narrow',False),
                                             ('content_broad','broad',False),('evidence','v0',True),('combined','broad',True)])}
     cases=initial+sum(branches.values(),[])
@@ -71,11 +74,13 @@ def run(args):
                 def identity(mid):return mid+'@'+version if arm=='invalidate' and mid in changed else mid
                 reverse={identity(mid):mid for mid in by_id}
                 candidates=[OnlineCandidate(identity(mid),semantic[mid]) for mid in by_id]
-                acquired=[]
+                acquired=[];callback_seconds=[0.]
                 def scorer(query,requested):
+                    callback_start=time.monotonic()
                     mids=[reverse[x.memory_id] for x in requested]
                     acquired.extend(mids)
                     observed=acquire(mids)
+                    callback_seconds[0]+=time.monotonic()-callback_start
                     return {identity(mid):val for mid,val in observed.items()}
                 tick=time.monotonic();ranking=state.process_query(case['id'],q,candidates,scorer)
                 elapsed=time.monotonic()-tick
@@ -85,7 +90,7 @@ def run(args):
                 ranks['earm_'+arm]=order[:args.top_k]
                 costs['earm_'+arm]=dict(acquired=acquired,score_calls=len(acquired),cold_extra=ranking.cold_start_extra_calls,
                     fit_iterations=ranking.fit_iterations,fit_converged=ranking.fit_converged,
-                    process_seconds=elapsed,score_seconds=scored_seconds,
+                    process_seconds=elapsed,learning_seconds=elapsed-callback_seconds[0],score_seconds=scored_seconds,
                     model_bytes=sum(getattr(state.model,k).nbytes for k in ('values','structural_mask','row_bias','column_bias','row_factors','column_factors')))
                 diag[arm]=dict(predicted={reverse[x.memory_id]:x.final_score for x in ranking.memories},observed=acquired)
                 if arm=='retain':
@@ -140,4 +145,5 @@ if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--output',required=True);p.add_argument('--seed',type=int,default=101)
     p.add_argument('--initial',type=int,default=16);p.add_argument('--after',type=int,default=8)
     p.add_argument('--rank',type=int,default=2);p.add_argument('--top-k',type=int,default=2)
+    p.add_argument('--exclude',nargs='*',default=[])
     run(p.parse_args())
