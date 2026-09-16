@@ -1,0 +1,1 @@
+{"status":"interrupted_before_model_load","physical_model_calls":0,"error":"Guard mistook the ancestor shell containing two sequential Python commands for an active model process.","repair":"Match the process executable, not an arbitrary occurrence of python in its arguments. Fresh questions and treatment settings are unchanged."}

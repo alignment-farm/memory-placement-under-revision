@@ -1,0 +1,1211 @@
+[
+  {
+    "affected": false,
+    "family": 0,
+    "gold": [
+      true,
+      true,
+      false
+    ],
+    "id": "acquire-000",
+    "old_gold": [
+      true,
+      true,
+      false
+    ],
+    "question": "For three separate Blue Account customers with minimum daily balances of [1083, 1087, 615] dollars, is the monthly maintenance fee waived for each? Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_blue_account_001",
+      "doc_checking_accounts_blue_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 0,
+    "gold": [
+      true,
+      true,
+      true
+    ],
+    "id": "acquire-001",
+    "old_gold": [
+      true,
+      true,
+      true
+    ],
+    "question": "For three separate Blue Account customers with minimum daily balances of [646, 885, 731] dollars, is the monthly maintenance fee waived for each? Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_blue_account_001",
+      "doc_checking_accounts_blue_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 1,
+    "gold": [
+      false,
+      true,
+      true
+    ],
+    "id": "acquire-002",
+    "old_gold": [
+      false,
+      true,
+      true
+    ],
+    "question": "For three separate prospective Light Green Account primary holders aged [27, 18, 22] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_light_green_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 2,
+    "gold": [
+      true,
+      false,
+      true
+    ],
+    "id": "acquire-003",
+    "old_gold": [
+      true,
+      false,
+      true
+    ],
+    "question": "For three separate prospective Dark Green Account primary holders aged [21, 30, 26] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_dark_green_account_001",
+      "doc_checking_accounts_dark_green_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 1,
+    "gold": [
+      true,
+      false,
+      true
+    ],
+    "id": "acquire-004",
+    "old_gold": [
+      true,
+      false,
+      true
+    ],
+    "question": "For three separate prospective Light Green Account primary holders aged [24, 11, 22] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_light_green_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 2,
+    "gold": [
+      true,
+      false,
+      false
+    ],
+    "id": "acquire-005",
+    "old_gold": [
+      true,
+      false,
+      false
+    ],
+    "question": "For three separate prospective Dark Green Account primary holders aged [21, 14, 29] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_dark_green_account_001",
+      "doc_checking_accounts_dark_green_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 3,
+    "gold": [
+      false,
+      true,
+      true
+    ],
+    "id": "acquire-006",
+    "old_gold": [
+      false,
+      true,
+      true
+    ],
+    "question": "For three separate prospective Gold Years Account primary holders aged [57, 67, 66] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_gold_years_account_001",
+      "doc_checking_accounts_gold_years_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 3,
+    "gold": [
+      true,
+      false,
+      true
+    ],
+    "id": "acquire-007",
+    "old_gold": [
+      true,
+      false,
+      true
+    ],
+    "question": "For three separate prospective Gold Years Account primary holders aged [71, 61, 63] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_gold_years_account_001",
+      "doc_checking_accounts_gold_years_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 3,
+    "gold": [
+      true,
+      true,
+      false
+    ],
+    "id": "acquire-008",
+    "old_gold": [
+      true,
+      true,
+      false
+    ],
+    "question": "For three separate prospective Gold Years Account primary holders aged [70, 71, 57] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_gold_years_account_001",
+      "doc_checking_accounts_gold_years_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 1,
+    "gold": [
+      false,
+      true,
+      true
+    ],
+    "id": "acquire-009",
+    "old_gold": [
+      false,
+      true,
+      true
+    ],
+    "question": "For three separate prospective Light Green Account primary holders aged [12, 17, 13] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_light_green_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 0,
+    "gold": [
+      true,
+      true,
+      true
+    ],
+    "id": "acquire-010",
+    "old_gold": [
+      true,
+      true,
+      true
+    ],
+    "question": "For three separate Blue Account customers with minimum daily balances of [675, 1066, 1022] dollars, is the monthly maintenance fee waived for each? Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_blue_account_001",
+      "doc_checking_accounts_blue_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 3,
+    "gold": [
+      true,
+      true,
+      false
+    ],
+    "id": "acquire-011",
+    "old_gold": [
+      true,
+      true,
+      false
+    ],
+    "question": "For three separate prospective Gold Years Account primary holders aged [65, 69, 61] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_gold_years_account_001",
+      "doc_checking_accounts_gold_years_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 0,
+    "gold": [
+      true,
+      false,
+      false
+    ],
+    "id": "acquire-012",
+    "old_gold": [
+      true,
+      false,
+      false
+    ],
+    "question": "For three separate Blue Account customers with minimum daily balances of [1028, 424, 448] dollars, is the monthly maintenance fee waived for each? Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_blue_account_001",
+      "doc_checking_accounts_blue_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 1,
+    "gold": [
+      true,
+      true,
+      true
+    ],
+    "id": "acquire-013",
+    "old_gold": [
+      true,
+      true,
+      true
+    ],
+    "question": "For three separate prospective Light Green Account primary holders aged [21, 17, 20] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_light_green_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 2,
+    "gold": [
+      false,
+      false,
+      false
+    ],
+    "id": "acquire-014",
+    "old_gold": [
+      false,
+      false,
+      false
+    ],
+    "question": "For three separate prospective Dark Green Account primary holders aged [15, 27, 30] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_dark_green_account_001",
+      "doc_checking_accounts_dark_green_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 2,
+    "gold": [
+      false,
+      true,
+      false
+    ],
+    "id": "acquire-015",
+    "old_gold": [
+      false,
+      true,
+      false
+    ],
+    "question": "For three separate prospective Dark Green Account primary holders aged [15, 24, 30] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_dark_green_account_001",
+      "doc_checking_accounts_dark_green_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 2,
+    "gold": [
+      false,
+      false,
+      true
+    ],
+    "id": "stable-000",
+    "old_gold": [
+      false,
+      false,
+      true
+    ],
+    "question": "For three separate prospective Dark Green Account primary holders aged [29, 15, 18] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_dark_green_account_001",
+      "doc_checking_accounts_dark_green_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 3,
+    "gold": [
+      false,
+      false,
+      false
+    ],
+    "id": "stable-001",
+    "old_gold": [
+      false,
+      false,
+      false
+    ],
+    "question": "For three separate prospective Gold Years Account primary holders aged [60, 58, 59] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_gold_years_account_001",
+      "doc_checking_accounts_gold_years_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 2,
+    "gold": [
+      true,
+      false,
+      true
+    ],
+    "id": "stable-002",
+    "old_gold": [
+      true,
+      false,
+      true
+    ],
+    "question": "For three separate prospective Dark Green Account primary holders aged [26, 15, 19] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_dark_green_account_001",
+      "doc_checking_accounts_dark_green_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 1,
+    "gold": [
+      true,
+      true,
+      true
+    ],
+    "id": "stable-003",
+    "old_gold": [
+      true,
+      true,
+      true
+    ],
+    "question": "For three separate prospective Light Green Account primary holders aged [23, 21, 20] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_light_green_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 1,
+    "gold": [
+      true,
+      true,
+      true
+    ],
+    "id": "stable-004",
+    "old_gold": [
+      true,
+      true,
+      true
+    ],
+    "question": "For three separate prospective Light Green Account primary holders aged [18, 19, 13] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_light_green_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 0,
+    "gold": [
+      true,
+      false,
+      true
+    ],
+    "id": "stable-005",
+    "old_gold": [
+      true,
+      false,
+      true
+    ],
+    "question": "For three separate Blue Account customers with minimum daily balances of [657, 560, 952] dollars, is the monthly maintenance fee waived for each? Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_blue_account_001",
+      "doc_checking_accounts_blue_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 3,
+    "gold": [
+      true,
+      true,
+      false
+    ],
+    "id": "stable-006",
+    "old_gold": [
+      true,
+      true,
+      false
+    ],
+    "question": "For three separate prospective Gold Years Account primary holders aged [71, 72, 57] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_gold_years_account_001",
+      "doc_checking_accounts_gold_years_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 0,
+    "gold": [
+      true,
+      true,
+      true
+    ],
+    "id": "stable-007",
+    "old_gold": [
+      true,
+      true,
+      true
+    ],
+    "question": "For three separate Blue Account customers with minimum daily balances of [972, 1057, 841] dollars, is the monthly maintenance fee waived for each? Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_blue_account_001",
+      "doc_checking_accounts_blue_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 1,
+    "gold": [
+      true,
+      true,
+      false
+    ],
+    "id": "content_narrow-000",
+    "old_gold": [
+      true,
+      true,
+      false
+    ],
+    "question": "For three separate prospective Light Green Account primary holders aged [24, 23, 12] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_light_green_account_002"
+    ],
+    "version": "narrow"
+  },
+  {
+    "affected": false,
+    "family": 3,
+    "gold": [
+      true,
+      true,
+      false
+    ],
+    "id": "content_narrow-001",
+    "old_gold": [
+      true,
+      true,
+      false
+    ],
+    "question": "For three separate prospective Gold Years Account primary holders aged [63, 62, 60] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_gold_years_account_001",
+      "doc_checking_accounts_gold_years_account_002"
+    ],
+    "version": "narrow"
+  },
+  {
+    "affected": true,
+    "family": 0,
+    "gold": [
+      false,
+      false,
+      true
+    ],
+    "id": "content_narrow-002",
+    "old_gold": [
+      true,
+      false,
+      true
+    ],
+    "question": "For three separate Blue Account customers with minimum daily balances of [892, 549, 1080] dollars, is the monthly maintenance fee waived for each? Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_blue_account_001",
+      "doc_checking_accounts_blue_account_002"
+    ],
+    "version": "narrow"
+  },
+  {
+    "affected": false,
+    "family": 2,
+    "gold": [
+      false,
+      false,
+      true
+    ],
+    "id": "content_narrow-003",
+    "old_gold": [
+      false,
+      false,
+      true
+    ],
+    "question": "For three separate prospective Dark Green Account primary holders aged [16, 27, 25] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_dark_green_account_001",
+      "doc_checking_accounts_dark_green_account_002"
+    ],
+    "version": "narrow"
+  },
+  {
+    "affected": false,
+    "family": 2,
+    "gold": [
+      true,
+      false,
+      false
+    ],
+    "id": "content_narrow-004",
+    "old_gold": [
+      true,
+      false,
+      false
+    ],
+    "question": "For three separate prospective Dark Green Account primary holders aged [26, 27, 14] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_dark_green_account_001",
+      "doc_checking_accounts_dark_green_account_002"
+    ],
+    "version": "narrow"
+  },
+  {
+    "affected": false,
+    "family": 0,
+    "gold": [
+      false,
+      true,
+      true
+    ],
+    "id": "content_narrow-005",
+    "old_gold": [
+      false,
+      true,
+      true
+    ],
+    "question": "For three separate Blue Account customers with minimum daily balances of [482, 978, 990] dollars, is the monthly maintenance fee waived for each? Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_blue_account_001",
+      "doc_checking_accounts_blue_account_002"
+    ],
+    "version": "narrow"
+  },
+  {
+    "affected": false,
+    "family": 3,
+    "gold": [
+      true,
+      false,
+      false
+    ],
+    "id": "content_narrow-006",
+    "old_gold": [
+      true,
+      false,
+      false
+    ],
+    "question": "For three separate prospective Gold Years Account primary holders aged [62, 61, 57] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_gold_years_account_001",
+      "doc_checking_accounts_gold_years_account_002"
+    ],
+    "version": "narrow"
+  },
+  {
+    "affected": false,
+    "family": 1,
+    "gold": [
+      true,
+      true,
+      true
+    ],
+    "id": "content_narrow-007",
+    "old_gold": [
+      true,
+      true,
+      true
+    ],
+    "question": "For three separate prospective Light Green Account primary holders aged [21, 24, 13] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_light_green_account_002"
+    ],
+    "version": "narrow"
+  },
+  {
+    "affected": false,
+    "family": 2,
+    "gold": [
+      true,
+      true,
+      false
+    ],
+    "id": "content_broad-000",
+    "old_gold": [
+      true,
+      true,
+      false
+    ],
+    "question": "For three separate prospective Dark Green Account primary holders aged [24, 17, 14] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_dark_green_account_001",
+      "doc_checking_accounts_dark_green_account_002"
+    ],
+    "version": "broad"
+  },
+  {
+    "affected": true,
+    "family": 3,
+    "gold": [
+      true,
+      true,
+      false
+    ],
+    "id": "content_broad-001",
+    "old_gold": [
+      true,
+      true,
+      true
+    ],
+    "question": "For three separate prospective Gold Years Account primary holders aged [71, 67, 62] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_gold_years_account_001",
+      "doc_checking_accounts_gold_years_account_002"
+    ],
+    "version": "broad"
+  },
+  {
+    "affected": true,
+    "family": 0,
+    "gold": [
+      true,
+      false,
+      false
+    ],
+    "id": "content_broad-002",
+    "old_gold": [
+      true,
+      true,
+      true
+    ],
+    "question": "For three separate Blue Account customers with minimum daily balances of [949, 747, 814] dollars, is the monthly maintenance fee waived for each? Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_blue_account_001",
+      "doc_checking_accounts_blue_account_002"
+    ],
+    "version": "broad"
+  },
+  {
+    "affected": false,
+    "family": 1,
+    "gold": [
+      true,
+      true,
+      false
+    ],
+    "id": "content_broad-003",
+    "old_gold": [
+      true,
+      true,
+      false
+    ],
+    "question": "For three separate prospective Light Green Account primary holders aged [15, 18, 27] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_light_green_account_002"
+    ],
+    "version": "broad"
+  },
+  {
+    "affected": true,
+    "family": 3,
+    "gold": [
+      false,
+      false,
+      false
+    ],
+    "id": "content_broad-004",
+    "old_gold": [
+      false,
+      true,
+      true
+    ],
+    "question": "For three separate prospective Gold Years Account primary holders aged [59, 63, 62] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_gold_years_account_001",
+      "doc_checking_accounts_gold_years_account_002"
+    ],
+    "version": "broad"
+  },
+  {
+    "affected": true,
+    "family": 1,
+    "gold": [
+      true,
+      true,
+      false
+    ],
+    "id": "content_broad-005",
+    "old_gold": [
+      true,
+      true,
+      true
+    ],
+    "question": "For three separate prospective Light Green Account primary holders aged [15, 16, 23] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_light_green_account_002"
+    ],
+    "version": "broad"
+  },
+  {
+    "affected": false,
+    "family": 2,
+    "gold": [
+      false,
+      true,
+      true
+    ],
+    "id": "content_broad-006",
+    "old_gold": [
+      false,
+      true,
+      true
+    ],
+    "question": "For three separate prospective Dark Green Account primary holders aged [16, 17, 25] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_dark_green_account_001",
+      "doc_checking_accounts_dark_green_account_002"
+    ],
+    "version": "broad"
+  },
+  {
+    "affected": true,
+    "family": 0,
+    "gold": [
+      true,
+      false,
+      true
+    ],
+    "id": "content_broad-007",
+    "old_gold": [
+      true,
+      true,
+      true
+    ],
+    "question": "For three separate Blue Account customers with minimum daily balances of [1038, 709, 997] dollars, is the monthly maintenance fee waived for each? Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_blue_account_001",
+      "doc_checking_accounts_blue_account_002"
+    ],
+    "version": "broad"
+  },
+  {
+    "affected": false,
+    "family": 0,
+    "gold": [
+      false,
+      true,
+      true
+    ],
+    "id": "evidence-000",
+    "old_gold": [
+      false,
+      true,
+      true
+    ],
+    "question": "For three separate Blue Account customers with minimum daily balances of [566, 731, 848] dollars, is the monthly maintenance fee waived for each? Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_blue_account_001",
+      "doc_checking_accounts_blue_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 3,
+    "gold": [
+      3.5,
+      3.5,
+      3.5
+    ],
+    "id": "evidence-001",
+    "old_gold": [
+      3.5,
+      3.5,
+      3.5
+    ],
+    "question": "Three Gold Years Account customers each made one successful foreign ATM withdrawal on a separate day. The USD-equivalent amounts were [390, 201, 188] dollars, and their respective account balances at withdrawal were [9476, 8101, 8362] dollars. What Rho-Bank foreign ATM fee applies to each? Exclude third-party fees. Return dollar amounts in the given order.",
+    "shifted": true,
+    "supports": [
+      "doc_checking_accounts_gold_years_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 1,
+    "gold": [
+      2.0,
+      2.0,
+      3.5
+    ],
+    "id": "evidence-002",
+    "old_gold": [
+      2.0,
+      2.0,
+      3.5
+    ],
+    "question": "Three Light Green Account customers each made one successful foreign ATM withdrawal on a separate day. The USD-equivalent amounts were [69, 51, 120] dollars, and their respective account balances at withdrawal were [9472, 8988, 8847] dollars. What Rho-Bank foreign ATM fee applies to each? Exclude third-party fees. Return dollar amounts in the given order.",
+    "shifted": true,
+    "supports": [
+      "doc_checking_accounts_light_green_account_013"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 2,
+    "gold": [
+      4.8,
+      5.75,
+      5.0
+    ],
+    "id": "evidence-003",
+    "old_gold": [
+      4.8,
+      5.75,
+      5.0
+    ],
+    "question": "Three Dark Green Account customers each made one successful foreign ATM withdrawal on a separate day. The USD-equivalent amounts were [192, 230, 200] dollars, and their respective account balances at withdrawal were [11902, 10472, 9820] dollars. What Rho-Bank foreign ATM fee applies to each? Exclude third-party fees. Return dollar amounts in the given order.",
+    "shifted": true,
+    "supports": [
+      "doc_checking_accounts_dark_green_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 0,
+    "gold": [
+      true,
+      true,
+      false
+    ],
+    "id": "evidence-004",
+    "old_gold": [
+      true,
+      true,
+      false
+    ],
+    "question": "For three separate Blue Account customers with minimum daily balances of [1095, 918, 424] dollars, is the monthly maintenance fee waived for each? Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_blue_account_001",
+      "doc_checking_accounts_blue_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 2,
+    "gold": [
+      6,
+      5.25,
+      5.1
+    ],
+    "id": "evidence-005",
+    "old_gold": [
+      6,
+      5.25,
+      5.1
+    ],
+    "question": "Three Dark Green Account customers each made one successful foreign ATM withdrawal on a separate day. The USD-equivalent amounts were [272, 210, 204] dollars, and their respective account balances at withdrawal were [8660, 9026, 10000] dollars. What Rho-Bank foreign ATM fee applies to each? Exclude third-party fees. Return dollar amounts in the given order.",
+    "shifted": true,
+    "supports": [
+      "doc_checking_accounts_dark_green_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 3,
+    "gold": [
+      3.5,
+      0.0,
+      0.0
+    ],
+    "id": "evidence-006",
+    "old_gold": [
+      3.5,
+      0.0,
+      0.0
+    ],
+    "question": "Three Gold Years Account customers each made one successful foreign ATM withdrawal on a separate day. The USD-equivalent amounts were [319, 149, 320] dollars, and their respective account balances at withdrawal were [8077, 10903, 10773] dollars. What Rho-Bank foreign ATM fee applies to each? Exclude third-party fees. Return dollar amounts in the given order.",
+    "shifted": true,
+    "supports": [
+      "doc_checking_accounts_gold_years_account_002"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 1,
+    "gold": [
+      3.5,
+      2.0,
+      3.5
+    ],
+    "id": "evidence-007",
+    "old_gold": [
+      3.5,
+      2.0,
+      3.5
+    ],
+    "question": "Three Light Green Account customers each made one successful foreign ATM withdrawal on a separate day. The USD-equivalent amounts were [128, 99, 125] dollars, and their respective account balances at withdrawal were [8898, 8684, 10542] dollars. What Rho-Bank foreign ATM fee applies to each? Exclude third-party fees. Return dollar amounts in the given order.",
+    "shifted": true,
+    "supports": [
+      "doc_checking_accounts_light_green_account_013"
+    ],
+    "version": "v0"
+  },
+  {
+    "affected": false,
+    "family": 2,
+    "gold": [
+      true,
+      false,
+      true
+    ],
+    "id": "combined-000",
+    "old_gold": [
+      true,
+      false,
+      true
+    ],
+    "question": "For three separate prospective Dark Green Account primary holders aged [21, 14, 20] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_dark_green_account_001",
+      "doc_checking_accounts_dark_green_account_002"
+    ],
+    "version": "broad"
+  },
+  {
+    "affected": false,
+    "family": 3,
+    "gold": [
+      0.0,
+      3.5,
+      3.5
+    ],
+    "id": "combined-001",
+    "old_gold": [
+      0.0,
+      3.5,
+      3.5
+    ],
+    "question": "Three Gold Years Account customers each made one successful foreign ATM withdrawal on a separate day. The USD-equivalent amounts were [126, 110, 487] dollars, and their respective account balances at withdrawal were [11080, 9270, 9313] dollars. What Rho-Bank foreign ATM fee applies to each? Exclude third-party fees. Return dollar amounts in the given order.",
+    "shifted": true,
+    "supports": [
+      "doc_checking_accounts_gold_years_account_002"
+    ],
+    "version": "broad"
+  },
+  {
+    "affected": false,
+    "family": 1,
+    "gold": [
+      2.0,
+      3.5,
+      3.5
+    ],
+    "id": "combined-002",
+    "old_gold": [
+      2.0,
+      3.5,
+      3.5
+    ],
+    "question": "Three Light Green Account customers each made one successful foreign ATM withdrawal on a separate day. The USD-equivalent amounts were [66, 123, 144] dollars, and their respective account balances at withdrawal were [9057, 9623, 10232] dollars. What Rho-Bank foreign ATM fee applies to each? Exclude third-party fees. Return dollar amounts in the given order.",
+    "shifted": true,
+    "supports": [
+      "doc_checking_accounts_light_green_account_013"
+    ],
+    "version": "broad"
+  },
+  {
+    "affected": false,
+    "family": 3,
+    "gold": [
+      3.5,
+      3.5,
+      0.0
+    ],
+    "id": "combined-003",
+    "old_gold": [
+      3.5,
+      3.5,
+      0.0
+    ],
+    "question": "Three Gold Years Account customers each made one successful foreign ATM withdrawal on a separate day. The USD-equivalent amounts were [372, 20, 463] dollars, and their respective account balances at withdrawal were [9034, 8368, 10043] dollars. What Rho-Bank foreign ATM fee applies to each? Exclude third-party fees. Return dollar amounts in the given order.",
+    "shifted": true,
+    "supports": [
+      "doc_checking_accounts_gold_years_account_002"
+    ],
+    "version": "broad"
+  },
+  {
+    "affected": false,
+    "family": 1,
+    "gold": [
+      true,
+      false,
+      false
+    ],
+    "id": "combined-004",
+    "old_gold": [
+      true,
+      false,
+      false
+    ],
+    "question": "For three separate prospective Light Green Account primary holders aged [17, 27, 26] years, does each meet the age requirement? Assess age only; assume all other requirements are met. Return booleans in the given order.",
+    "shifted": false,
+    "supports": [
+      "doc_checking_accounts_light_green_account_002"
+    ],
+    "version": "broad"
+  },
+  {
+    "affected": false,
+    "family": 2,
+    "gold": [
+      2.6,
+      6,
+      0.7
+    ],
+    "id": "combined-005",
+    "old_gold": [
+      2.6,
+      6,
+      0.7
+    ],
+    "question": "Three Dark Green Account customers each made one successful foreign ATM withdrawal on a separate day. The USD-equivalent amounts were [104, 274, 28] dollars, and their respective account balances at withdrawal were [8212, 11887, 9799] dollars. What Rho-Bank foreign ATM fee applies to each? Exclude third-party fees. Return dollar amounts in the given order.",
+    "shifted": true,
+    "supports": [
+      "doc_checking_accounts_dark_green_account_002"
+    ],
+    "version": "broad"
+  },
+  {
+    "affected": false,
+    "family": 0,
+    "gold": [
+      5,
+      5,
+      11.19
+    ],
+    "id": "combined-006",
+    "old_gold": [
+      5,
+      5,
+      11.19
+    ],
+    "question": "Three Blue Account customers each made one successful foreign ATM withdrawal on a separate day. The USD-equivalent amounts were [128, 100, 373] dollars, and their respective account balances at withdrawal were [10666, 11363, 10499] dollars. What Rho-Bank foreign ATM fee applies to each? Exclude third-party fees. Return dollar amounts in the given order.",
+    "shifted": true,
+    "supports": [
+      "doc_checking_accounts_blue_account_012"
+    ],
+    "version": "broad"
+  },
+  {
+    "affected": false,
+    "family": 0,
+    "gold": [
+      11.64,
+      5,
+      11.79
+    ],
+    "id": "combined-007",
+    "old_gold": [
+      11.64,
+      5,
+      11.79
+    ],
+    "question": "Three Blue Account customers each made one successful foreign ATM withdrawal on a separate day. The USD-equivalent amounts were [388, 140, 393] dollars, and their respective account balances at withdrawal were [10851, 10873, 11173] dollars. What Rho-Bank foreign ATM fee applies to each? Exclude third-party fees. Return dollar amounts in the given order.",
+    "shifted": true,
+    "supports": [
+      "doc_checking_accounts_blue_account_012"
+    ],
+    "version": "broad"
+  }
+]
