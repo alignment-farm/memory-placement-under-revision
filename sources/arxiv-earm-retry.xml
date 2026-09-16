@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/aacRisCnPxnElaVfJw0nQiX+XeQ</id>
+  <title>arXiv Query: search_query=&amp;id_list=2608.22767&amp;start=0&amp;max_results=1</title>
+  <updated>2026-09-16T06:51:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=1&amp;id_list=2608.22767" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2608.22767v1</id>
+    <title>The Retriever Should Remember: Experience-Amortized Reranking for Long-Term Agent Memory</title>
+    <updated>2026-08-24T03:42:03Z</updated>
+    <link href="https://arxiv.org/abs/2608.22767v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.22767v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-term language-model agents accumulate memories across interactions, but their retrievers typically do not accumulate retrieval experience. Semantic retrieval is efficient, but embedding similarity does not always reflect whether a memory contains evidence relevant to the current query. Large language model (LLM) rerankers provide stronger query-conditioned relevance scores, yet stateless reranking repeatedly scores a large candidate pool and discards these scores after each query. We introduce EARM, an experience-amortized reranking framework that treats previously acquired LLM relevance scores as reusable retrieval experience. EARM stores sparse query--memory relevance scores in an online matrix, learns their shared structure through causal matrix completion, and combines a small set of newly observed scores with estimated scores to rerank the remaining candidates. The scoring budget decreases as experience accumulates, changing LLM reranking from a repeated per-query expense into a retrieval capability learned over an agent's lifetime. Experiments on long-term conversational memory show that mixed observed-and-estimated reranking improves answer accuracy over semantic retrieval by up to 6.62% and remains effective when only 17.5% of candidates receive direct LLM relevance scores, thereby substantially reducing the inference overhead of LLM reranking. These results motivate a broader view of agent memory: a long-lived agent should remember not only past content, but also how that content has proved useful for retrieval.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-24T03:42:03Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Qi Feng</name>
+    </author>
+    <author>
+      <name>Chris Ding</name>
+    </author>
+    <author>
+      <name>Jicong Fan</name>
+    </author>
+  </entry>
+</feed>
