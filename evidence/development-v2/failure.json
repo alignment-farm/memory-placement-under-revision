@@ -1,0 +1,1 @@
+{"status":"interrupted_before_model_load","physical_model_calls":0,"error":"Resource guard identified its own uv launcher as a competing model job.","repair":"Exclude the process and direct parent PIDs from the guard."}

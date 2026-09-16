@@ -24,7 +24,7 @@ class Runtime:
     def guard(self):
         while True:
             rows=subprocess.check_output(['ps','-axo','pid,command'],text=True).splitlines()
-            competing=[r for r in rows if 'python' in r.lower() and '.py' in r and
+            competing=[r for r in rows if r.split()[0].isdigit() and int(r.split()[0]) not in (os.getpid(),os.getppid()) and 'python' in r.lower() and '.py' in r and
                        'memory-placement-under-revision' not in r and
                        any(s in r for s in ('experiment.py','train.py','maintenance_', 'scope_experiment','state_support'))]
             with (self.out/'hardware.jsonl').open('a') as f:

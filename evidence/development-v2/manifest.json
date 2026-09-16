@@ -1,0 +1,30 @@
+{
+  "args": {
+    "after": 8,
+    "exclude": [],
+    "initial": 16,
+    "output": "evidence/development-v2",
+    "rank": 2,
+    "seed": 101,
+    "top_k": 2
+  },
+  "earm": {
+    "block_size": 4,
+    "budgets": [
+      12,
+      6,
+      4,
+      3
+    ],
+    "l2": 0.1,
+    "max_iterations": 500,
+    "rank": 2,
+    "seed": 101,
+    "semantic_anchor_fraction": 0.5,
+    "tolerance": 1e-06
+  },
+  "git_revision": "fa8f8ddfdc53fa70431b530e9ff1da6c88cd8ccc",
+  "model_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "source_dirty": "",
+  "started": 1789555550.497186
+}

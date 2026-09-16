@@ -1,0 +1,4 @@
+{"time": 1789555550.534581, "competing": ["11701 uv run python scripts/experiment.py --output evidence/development-v2"]}
+{"time": 1789555555.610388, "competing": ["11701 uv run python scripts/experiment.py --output evidence/development-v2"]}
+{"time": 1789555560.685452, "competing": ["11701 uv run python scripts/experiment.py --output evidence/development-v2"]}
+{"time": 1789555565.759882, "competing": ["11701 uv run python scripts/experiment.py --output evidence/development-v2"]}
