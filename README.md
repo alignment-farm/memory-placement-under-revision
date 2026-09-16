@@ -1,8 +1,11 @@
 # Memory placement under revision
 
-**Prepared 16 September 2026; execution started the same day.** Development,
+**Completed 16 September 2026.** See [FINDINGS.md](FINDINGS.md) for the result:
+account-aware lexical retrieval matched full reranking at 127/128 fresh requests,
+while EARM did not demonstrate repayment against that cheap control. Development,
 diagnosis and frozen fresh protocols are recorded under `notes/`; raw runs and
-failed attempts are retained under `evidence/`. This independent
+failed attempts are retained under `evidence/`. The original assignment follows.
+This independent
 ancillary study investigates when reuse repays the cost of learning a memory
 component before consequential change. The investigator owns workload discovery,
 methods, implementation, diagnostics, evidence and publication. A fresh ancillary

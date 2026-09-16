@@ -8,3 +8,13 @@ This is passive coordination, not a reservation; wall times are observations,
 not isolated hardware benchmarks. Only this study's files are changed.
 The initial workload uses NumPy EARM and the existing inference service;
 no new model weights or gradient job is needed.
+
+Completion: development model execution took 346.00 seconds. The two fresh runs
+took 1,236.29 and 1,496.62 seconds, with zero genuine hardware waits and no
+observed competing Python model jobs. Peak native allocation was 13,339,611,224
+bytes. The guard's preserved preflight false positives concern its own launcher
+and ancestor shell, not another investigator. Native calls, cache reuse and
+diagnostic failures are included in evidence/aggregate/summary.json. Coordination
+was passive and timings are not isolated benchmarks. No new model download,
+gradient training, supporting service installation or sibling modification was
+required. All study-owned model jobs have ended.
