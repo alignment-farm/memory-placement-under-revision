@@ -19,6 +19,8 @@ def analyze(path):
             vals=[r['answers'][arm] for r in rs]
             affected=[r['answers'][arm] for r in rs if r['case']['affected']]
             unaffected=[r['answers'][arm] for r in rs if not r['case']['affected']]
+            acquired_calls=[calls[r['score_call_ids'][mid]] for r in rs
+                            for mid in (r['scores'] if arm=='full_rerank' else r['answers'][arm]['cost'].get('acquired',[]))]
             arms[arm]=dict(n=len(vals),correct=sum(v['correct'] for v in vals),
                 support_hits=sum(v['support_hit'] for v in vals),affected=len(affected),
                 affected_correct=sum(v['correct'] for v in affected),stale=sum(v['stale'] for v in affected),
@@ -31,6 +33,12 @@ def analyze(path):
                 answer_prompt_tokens=sum(v['prompt_tokens'] for v in vals),
                 answer_cached_tokens=sum(v['cached_tokens'] for v in vals),
                 answer_completion_tokens=sum(v['completion_tokens'] for v in vals),
+                score_prompt_tokens=sum(c['prompt_tokens'] for c in acquired_calls),
+                score_cached_tokens=sum(c['cached_tokens'] for c in acquired_calls),
+                score_completion_tokens=sum(c['completion_tokens'] for c in acquired_calls),
+                max_model_bytes=max(v['cost'].get('model_bytes',0) for v in vals),
+                lexical_seconds=sum(r['lexical_seconds'] for r in rs),
+                index_revision_seconds=sum(r['revision_seconds'] for r in rs),
                 imputed_contexts=sum(bool(v['imputed_selected']) for v in vals))
         diag={}
         for arm in ('retain','invalidate'):
