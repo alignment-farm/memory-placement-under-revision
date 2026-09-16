@@ -1,6 +1,8 @@
 # Memory placement under revision
 
-**Prepared 16 September 2026; execution has not started.** This independent
+**Prepared 16 September 2026; execution started the same day.** Development,
+diagnosis and frozen fresh protocols are recorded under `notes/`; raw runs and
+failed attempts are retained under `evidence/`. This independent
 ancillary study investigates when reuse repays the cost of learning a memory
 component before consequential change. The investigator owns workload discovery,
 methods, implementation, diagnostics, evidence and publication. A fresh ancillary

@@ -19,3 +19,15 @@ It covers both prior failures and successes, including foreign-fee requests.
 If adequate, use that same answer instruction in every final arm. No new model,
 training objective or data source is introduced. Source and answer diagnostics
 must finish before final seed generation.
+
+Completed diagnosis: account-aware ranking supplies support on 56/56 development
+requests for mixed, observed-only and lexical; rank 8 reduces mixed unobserved
+MSE to .1080 versus .1658 for rank 2. The reasoning-suffix check corrected all
+substantive errors in eight probes but one hit the 320-token ceiling. Raising
+the common ceiling to 512 produced eight parsed answers on the extended check.
+One extended fee case exposed unspecified half-cent rounding: source policy
+does not say how to round 2.5% of an odd dollar amount. Development's .011
+numeric tolerance hid a one-cent difference. Preserve that evidence; final
+cases use even dollar amounts for that family and an exact-cent tolerance of
+1e-6. This removes ambiguity rather than declaring a bank rounding convention.
+No further answerer/learner tuning is planned after the fresh protocol is frozen.

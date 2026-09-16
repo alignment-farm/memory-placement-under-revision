@@ -23,7 +23,7 @@ def tokens(text):return re.findall(r'[a-z]+|\d+',text.lower())
 def correct(answer,gold):
     if not isinstance(answer,list) or len(answer)!=len(gold):return False
     return all((type(a) is bool and a==g) if type(g) is bool else
-               (type(a) in (int,float) and abs(a-g)<.011) for a,g in zip(answer,gold))
+               (type(a) in (int,float) and abs(a-g)<1e-6) for a,g in zip(answer,gold))
 
 def run(args):
     out=Path(args.output);out.mkdir(parents=True,exist_ok=False)
@@ -115,7 +115,7 @@ def run(args):
                 # Canonical context order isolates selection from document-order effects.
                 selected=sorted(selected)
                 answer_query=q+('\nShow the applicable numeric rule and all three calculations before your final JSON; do not skip them.' if args.explain else '')
-                call=rt.call('answer',ANSWER_PREFIX+'\n\n'.join(document_text(by_id[mid]) for mid in selected),answer_query,320)
+                call=rt.call('answer',ANSWER_PREFIX+'\n\n'.join(document_text(by_id[mid]) for mid in selected),answer_query,args.answer_limit)
                 parsed=parse_answer(call['raw'])
                 answers[arm]=dict(selected=selected,answer=parsed,correct=correct(parsed,case['gold']),
                                   stale=case['affected'] and correct(parsed,case['old_gold']),
@@ -149,4 +149,5 @@ if __name__=='__main__':
     p.add_argument('--rank',type=int,default=2);p.add_argument('--top-k',type=int,default=2)
     p.add_argument('--exclude',nargs='*',default=[])
     p.add_argument('--entity',action='store_true');p.add_argument('--explain',action='store_true')
+    p.add_argument('--answer-limit',type=int,default=512)
     run(p.parse_args())

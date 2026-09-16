@@ -37,7 +37,7 @@ class Runtime:
         self.guard()
         prompt=prefix+'\n\nREQUEST:\n'+question
         key=hashlib.sha256((kind+'\0'+prefix).encode()).hexdigest()
-        exact=hashlib.sha256(prompt.encode()).hexdigest()
+        exact=hashlib.sha256((str(limit)+'\0'+prompt).encode()).hexdigest()
         if exact in self.dedup:
             return dict(self.dedup[exact], experimental_reuse=True)
         t=time.monotonic()

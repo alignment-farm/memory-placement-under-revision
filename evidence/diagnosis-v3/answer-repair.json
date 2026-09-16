@@ -1,0 +1,114 @@
+[
+  {
+    "correct": true,
+    "gold": [
+      true,
+      false,
+      false
+    ],
+    "id": "content_broad-004",
+    "raw": "Applicable rule:  \nThe monthly maintenance fee for the Blue Account is waived if a minimum daily balance of $900 is maintained.  \n\nCalculation for each customer:  \n1. Customer 1: minimum daily balance = $1,000  \n   - $1,000 \u2265 $900 \u2192 fee is waived \u2192 **true**  \n\n2. Customer 2: minimum daily balance = $791  \n   - $791 < $900 \u2192 fee is not waived \u2192 **false**  \n\n3. Customer 3: minimum daily balance = $854  \n   - $854 < $900 \u2192 fee is not waived \u2192 **false**  \n\nFinal answers in order: true, false, false  \n\n```json\n{\n  \"answers\": [true, false, false]\n}\n```",
+    "selected": [
+      "doc_checking_accounts_blue_account_001",
+      "doc_checking_accounts_blue_account_012"
+    ]
+  },
+  {
+    "correct": true,
+    "gold": [
+      false,
+      false,
+      false
+    ],
+    "id": "content_broad-006",
+    "raw": "Applicable rule:  \nFrom doc_checking_accounts_blue_account_001, the monthly maintenance fee is waived if the minimum daily balance is maintained at or above $900.\n\nCalculation for each customer:\n\n1. Customer with minimum daily balance of $705:  \n   $705 < $900 \u2192 fee is **not waived** \u2192 false\n\n2. Customer with minimum daily balance of $474:  \n   $474 < $900 \u2192 fee is **not waived** \u2192 false\n\n3. Customer with minimum daily balance of $865:  \n   $865 < $900 \u2192 fee is **not waived** \u2192 false\n\nAll balances are below the $900 threshold required for fee waiver.\n\nFinal answers in order: false, false, false\n\n```json\n{\n  \"answers\": [\n    false,\n    false,\n    false\n  ]\n}\n```",
+    "selected": [
+      "doc_checking_accounts_blue_account_001",
+      "doc_checking_accounts_blue_account_012"
+    ]
+  },
+  {
+    "correct": true,
+    "gold": [
+      0.0,
+      3.5,
+      3.5
+    ],
+    "id": "evidence-001",
+    "raw": "Rule:  \nAccording to doc_checking_accounts_gold_years_account_002, the foreign ATM withdrawal fee is $3.50 per transaction. However, this fee is **waived if the account balance is $10,000 or more at the time of the withdrawal**.\n\nWe must evaluate each customer\u2019s account balance at the time of withdrawal:\n\n1. Customer 1: Withdrawal amount = $598, Balance = $11,962  \n   - Balance ($11,962) \u2265 $10,000 \u2192 Fee waived \u2192 $0.00\n\n2. Customer 2: Withdrawal amount = $181, Balance = $9,691  \n   - Balance ($9,691) < $10,000 \u2192 Fee applies \u2192 $3.50\n\n3. Customer 3: Withdrawal amount = $355, Balance = $8,296  \n   - Balance ($8,296) < $10,000 \u2192 Fee applies \u2192 $3.50\n\nNote: The withdrawal amount itself does not affect the fee; only the account balance at the time of withdrawal determines whether the fee is waived. Third-party fees are excluded as requested.\n\nFinal fee amounts in the given order: $0.00, $3.50, $3.50\n\n{\n  \"answers\": [\n    0.0,\n    3.5,\n    3.5\n  ]\n}",
+    "selected": [
+      "doc_checking_accounts_gold_years_account_002",
+      "doc_checking_accounts_gold_years_account_001"
+    ]
+  },
+  {
+    "correct": true,
+    "gold": [
+      3.5,
+      2.0,
+      3.5
+    ],
+    "id": "evidence-002",
+    "raw": "We are given three foreign ATM withdrawals with amounts: $132, $37, and $137.  \nWe need to determine the Rho-Bank foreign ATM fee for each based on the fee schedule in the reference document:\n\n### Fee Schedule (from doc_checking_accounts_light_green_account_013):\n- Up to and including $100 \u2192 $2.00  \n- More than $100 and up to and including $300 \u2192 $3.50  \n- Above $300 \u2192 $5.00  \n\nNote: Amounts exactly at a threshold are charged the lower tier\u2019s fee.  \nFor example:\n- $100 \u2192 $2.00  \n- $300 \u2192 $3.50  \n- $301 \u2192 $5.00  \n\nNow, apply the rule to each withdrawal amount:\n\n1. **$132**  \n   - $132 > $100 and \u2264 $300 \u2192 applies to the second tier  \n   - Fee = **$3.50**\n\n2. **$37**  \n   - $37 \u2264 $100 and \u2264 $100 \u2192 applies to the first tier  \n   - Fee = **$2.00**\n\n3. **$137**  \n   - $137 > $100 and \u2264 $300 \u2192 applies to the second tier  \n   - Fee = **$3.50**\n\nThe account balances at withdrawal are provided, but the foreign ATM fee is **independent of the account balance** and only depends on the withdrawal amount. Therefore, the balances are not relevant for computing the fee.\n\nFinal fees in order: $3.50, $2.00, $3.50\n\n```json\n{\n  \"answers\": [3.5, 2.0, 3.5]\n}\n```",
+    "selected": [
+      "doc_checking_accounts_light_green_account_013",
+      "doc_checking_accounts_light_green_account_001"
+    ]
+  },
+  {
+    "correct": true,
+    "gold": [
+      3.5,
+      2.0,
+      2.0
+    ],
+    "id": "evidence-003",
+    "raw": "We are given three foreign ATM withdrawals with amounts: $111, $58, and $70.  \nWe need to determine the Rho-Bank foreign ATM fee for each based on the fee schedule in the reference document:\n\n### Fee Schedule (from doc_checking_accounts_light_green_account_013):\n- Up to and including $100 \u2192 $2.00  \n- More than $100 and up to and including $300 \u2192 $3.50  \n- Above $300 \u2192 $5.00  \n\nNote: Amounts exactly at a threshold are charged the lower tier\u2019s fee.  \nFor example:\n- $100 \u2192 $2.00  \n- $101 \u2192 $3.50  \n- $300 \u2192 $3.50  \n- $301 \u2192 $5.00  \n\nNow, evaluate each withdrawal:\n\n1. **$111**:\n   - $111 > $100 and \u2264 $300 \u2192 applies to the second tier\n   - Fee = **$3.50**\n\n2. **$58**:\n   - $58 \u2264 $100 \u2192 applies to the first tier\n   - Fee = **$2.00**\n\n3. **$70**:\n   - $70 \u2264 $100 \u2192 applies to the first tier\n   - Fee = **$2.00**\n\nAccount balances are provided but are not relevant to the foreign ATM fee calculation, as the fee is based solely on the withdrawal amount, not the account balance.\n\nFinal fees in the given order: $3.50, $2.00, $2.00\n\n{\"answers\": [3.5, 2.0, 2.0]}",
+    "selected": [
+      "doc_checking_accounts_light_green_account_013",
+      "doc_checking_accounts_light_green_account_001"
+    ]
+  },
+  {
+    "correct": true,
+    "gold": [
+      5.25,
+      7.5,
+      6.39
+    ],
+    "id": "evidence-005",
+    "raw": "Applicable Rule:  \nFrom doc_checking_accounts_blue_account_012 (International ATM withdrawals for Blue Account):  \nFee = the greater of:  \n- 3% of the withdrawal amount (in USD equivalent), or  \n- $5.00  \n\nThis rule applies to each foreign ATM withdrawal, regardless of the account balance (since the balance is not referenced in the fee calculation for international withdrawals). The fee is per transaction and based only on the withdrawal amount in USD equivalent.\n\n---\n\nCalculation for each withdrawal:\n\n1. Withdrawal amount: $175  \n   - 3% of $175 = 0.03 \u00d7 175 = $5.25  \n   - Compare to minimum fee of $5.00  \n   - $5.25 > $5.00 \u2192 Fee = $5.25  \n\n2. Withdrawal amount: $250  \n   - 3% of $250 = 0.03 \u00d7 250 = $7.50  \n   - $7.50 > $5.00 \u2192 Fee = $7.50  \n\n3. Withdrawal amount: $213  \n   - 3% of $213 = 0.03 \u00d7 213 = $6.39  \n   - $6.39 > $5.00 \u2192 Fee = $6.39  \n\nNote: Account balances ([8841, 9324, 11925]) are not relevant to the foreign ATM fee calculation under this rule. The fee is based solely on the withdrawal amount and the 3% rule with a $5.00 minimum.\n\nFinal fees in order: $5.25, $7.50, $6.39\n\n{\n  \"answers\": [\n    5.25,\n    7.5,\n    6.39\n  ]\n}",
+    "selected": [
+      "doc_checking_accounts_blue_account_012",
+      "doc_checking_accounts_blue_account_001"
+    ]
+  },
+  {
+    "correct": true,
+    "gold": [
+      false,
+      false,
+      false
+    ],
+    "id": "combined-004",
+    "raw": "Applicable rule:  \nFrom doc_checking_accounts_blue_account_001, the monthly maintenance fee is waived if the minimum daily balance is $900 or higher.\n\nCalculation for each customer:\n\n1. Customer with minimum daily balance of $699:  \n   $699 < $900 \u2192 fee is **not waived** \u2192 false\n\n2. Customer with minimum daily balance of $628:  \n   $628 < $900 \u2192 fee is **not waived** \u2192 false\n\n3. Customer with minimum daily balance of $712:  \n   $712 < $900 \u2192 fee is **not waived** \u2192 false\n\nAll balances are below the $900 threshold required for fee waiver.\n\nFinal answers in order: false, false, false\n\n```json\n{\n  \"answers\": [\n    false,\n    false,\n    false\n  ]\n}\n```",
+    "selected": [
+      "doc_checking_accounts_blue_account_001",
+      "doc_checking_accounts_blue_account_012"
+    ]
+  },
+  {
+    "correct": true,
+    "gold": [
+      1.7,
+      1.43,
+      3.12
+    ],
+    "id": "combined-007",
+    "raw": "Applicable rule:  \nFrom doc_checking_accounts_dark_green_account_002, the foreign ATM withdrawal fee is **2.5% of the withdrawal amount**, with a **maximum cap of $6.00 per transaction**.\n\nWe are to compute the fee for each of the three withdrawals using the rule:  \n**Fee = min(2.5% of withdrawal amount, $6.00)**\n\n---\n\n**First withdrawal:**  \nWithdrawal amount = $68  \n2.5% of 68 = 0.025 \u00d7 68 = $1.70  \n$1.70 < $6.00 \u2192 Fee = $1.70\n\n---\n\n**Second withdrawal:**  \nWithdrawal amount = $57  \n2.5% of 57 = 0.025 \u00d7 57 = $1.425  \n$1.425 < $6.00 \u2192 Fee = $1.425 \u2192 Rounded to nearest cent: $1.43 (but since the rule says \"fee\" and no rounding instruction, we keep exact unless specified. However, financial fees are typically rounded to nearest cent. So $1.425 \u2192 $1.43)\n\nBut note: the reference document does not specify rounding. However, in practice, fees are rounded to the nearest cent. So we apply standard rounding.\n\n0.025 \u00d7 57 = 1.425 \u2192 rounds to **$1.43**\n\n---\n\n**Third withdrawal:**  \nWithdrawal amount = $125  \n2.5% of 125 = 0.025 \u00d7 125 = $3.125 \u2192 rounds to **$3.13**\n\nCheck cap: $3.125 < $6.00 \u2192 Fee = $3.13\n\n---\n\nFinal fees in order:  \n1. $1.70  \n2. $1.43  \n3. $3.13\n\nNote: All fees are calculated using the 2.5% rule with cap at $6.00, and rounded to nearest cent as standard for currency.\n\n{\"answers\": [1.7, 1.43, 3.13]}",
+    "selected": [
+      "doc_checking_accounts_dark_green_account_002",
+      "doc_checking_accounts_dark_green_account_001"
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "call_ids": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "cold_cached_tokens": 0,
+  "identical_answers": true,
+  "identical_raw": false,
+  "original": [
+    true,
+    true,
+    true
+  ],
+  "revised": [
+    false,
+    false,
+    true
+  ],
+  "revised_cached_tokens": 0,
+  "revision_changes_answer": true,
+  "warm_cached_tokens": 4182
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "correct": true,
+    "gold": [
+      true,
+      false,
+      false
+    ],
+    "id": "acquire-000",
+    "raw": "Applicable rule:  \nFrom doc_checking_accounts_blue_account_001, the monthly maintenance fee is waived if the minimum daily balance is $625 or higher.\n\nCalculation for each customer:\n\n1. Customer with minimum daily balance of $661:  \n   $661 \u2265 $625 \u2192 Fee waived \u2192 True\n\n2. Customer with minimum daily balance of $597:  \n   $597 < $625 \u2192 Fee not waived \u2192 False\n\n3. Customer with minimum daily balance of $564:  \n   $564 < $625 \u2192 Fee not waived \u2192 False\n\nFinal answers in order: True, False, False\n\n```json\n{\n  \"answers\": [true, false, false]\n}\n```",
+    "selected": [
+      "doc_checking_accounts_blue_account_001",
+      "doc_checking_accounts_blue_account_012"
+    ]
+  },
+  {
+    "correct": true,
+    "gold": [
+      true,
+      true,
+      false
+    ],
+    "id": "acquire-002",
+    "raw": "Applicable rule:  \nFrom doc_checking_accounts_blue_account_001, the monthly maintenance fee is waived if the minimum daily balance is $625 or higher.\n\nCalculation for each customer:\n\n1. Customer with minimum daily balance of $950:  \n   $950 \u2265 $625 \u2192 Fee waived \u2192 True\n\n2. Customer with minimum daily balance of $775:  \n   $775 \u2265 $625 \u2192 Fee waived \u2192 True\n\n3. Customer with minimum daily balance of $596:  \n   $596 < $625 \u2192 Fee not waived \u2192 False\n\nFinal answers in order: True, True, False\n\n```json\n{\n  \"answers\": [true, true, false]\n}\n```",
+    "selected": [
+      "doc_checking_accounts_blue_account_001",
+      "doc_checking_accounts_blue_account_012"
+    ]
+  },
+  {
+    "correct": true,
+    "gold": [
+      true,
+      true,
+      true
+    ],
+    "id": "acquire-004",
+    "raw": "Applicable rule:  \nFrom doc_checking_accounts_light_green_account_002, the eligibility requirement states:  \n\"You must be the primary account holder and be between 13 and 24 years old to open the account. You must remain within the 13\u201324 age range to maintain the account.\"\n\nAge verification is based on date of birth at account opening and ongoing. Eligibility is determined by whether the individual's age is between 13 and 24 inclusive.\n\nCalculations:\n\n1. For the 22-year-old:  \n   22 is between 13 and 24 \u2192 Eligible \u2192 True\n\n2. For the 23-year-old:  \n   23 is between 13 and 24 \u2192 Eligible \u2192 True\n\n3. For the 16-year-old:  \n   16 is between 13 and 24 \u2192 Eligible \u2192 True\n\nAll three individuals fall within the 13\u201324 age range, so all meet the age requirement.\n\nFinal answers in order: true, true, true\n\n```json\n{\n  \"answers\": [\n    true,\n    true,\n    true\n  ]\n}\n```",
+    "selected": [
+      "doc_checking_accounts_light_green_account_002",
+      "doc_checking_accounts_light_green_account_013"
+    ]
+  },
+  {
+    "correct": true,
+    "gold": [
+      true,
+      true,
+      false
+    ],
+    "id": "acquire-006",
+    "raw": "Applicable rule: The Dark Green Account requires the primary holder to be at least 17 years old and no older than 26 years old.  \nEligibility condition: Minimum primary holder age is 17, maximum is 26.\n\nWe assess each prospective holder:\n\n1. Age = 23 years  \n   - Is 23 \u2265 17? Yes  \n   - Is 23 \u2264 26? Yes  \n   \u2192 Eligible \u2192 True\n\n2. Age = 20 years  \n   - Is 20 \u2265 17? Yes  \n   - Is 20 \u2264 26? Yes  \n   \u2192 Eligible \u2192 True\n\n3. Age = 15 years  \n   - Is 15 \u2265 17? No  \n   \u2192 Not eligible \u2192 False\n\nFinal answers in order: True, True, False\n\n```json\n{\n  \"answers\": [true, true, false]\n}\n```",
+    "selected": [
+      "doc_checking_accounts_dark_green_account_001",
+      "doc_checking_accounts_dark_green_account_002"
+    ]
+  },
+  {
+    "correct": true,
+    "gold": [
+      false,
+      true,
+      false
+    ],
+    "id": "acquire-010",
+    "raw": "Applicable rule:  \nThe monthly maintenance fee for the Blue Account is waived if the minimum daily balance is $625 or higher.  \nFee waiver condition: balance \u2265 $625 \u2192 fee waived (true); balance < $625 \u2192 fee not waived (false)\n\nCalculations:\n\n1. Customer 1: minimum daily balance = $406  \n   $406 < $625 \u2192 fee not waived \u2192 **false**\n\n2. Customer 2: minimum daily balance = $875  \n   $875 \u2265 $625 \u2192 fee waived \u2192 **true**\n\n3. Customer 3: minimum daily balance = $621  \n   $621 < $625 \u2192 fee not waived \u2192 **false**\n\nFinal answers in request order: false, true, false\n\n```json\n{\n  \"answers\": [\n    false,\n    true,\n    false\n  ]\n}\n```",
+    "selected": [
+      "doc_checking_accounts_blue_account_001",
+      "doc_checking_accounts_blue_account_012"
+    ]
+  },
+  {
+    "correct": true,
+    "gold": [
+      true,
+      true,
+      true
+    ],
+    "id": "stable-000",
+    "raw": "Applicable rule:  \nThe monthly maintenance fee for the Blue Account is waived if the minimum daily balance is maintained at or above $625.\n\nCalculation for each customer:\n\n1. Customer with minimum daily balance of $1,098:  \n   $1,098 \u2265 $625 \u2192 Fee is waived \u2192 True\n\n2. Customer with minimum daily balance of $881:  \n   $881 \u2265 $625 \u2192 Fee is waived \u2192 True\n\n3. Customer with minimum daily balance of $1,035:  \n   $1,035 \u2265 $625 \u2192 Fee is waived \u2192 True\n\nAll three balances exceed the $625 threshold required for the fee waiver.\n\nFinal JSON:\n\n{\"answers\": [true, true, true]}",
+    "selected": [
+      "doc_checking_accounts_blue_account_001",
+      "doc_checking_accounts_blue_account_012"
+    ]
+  },
+  {
+    "correct": true,
+    "gold": [
+      false,
+      true,
+      false
+    ],
+    "id": "evidence-000",
+    "raw": "Applicable rule: The Dark Green Account requires the primary holder to be between 17 and 26 years old, inclusive.\n\nEligibility criteria from reference document:\n- Minimum primary holder age: 17\n- Maximum primary holder age: 26\n\nNow evaluate each prospective holder:\n\n1. Age = 29 years:\n   - Is 29 \u2265 17? Yes.\n   - Is 29 \u2264 26? No.\n   - Therefore, does not meet age requirement \u2192 **false**\n\n2. Age = 24 years:\n   - Is 24 \u2265 17? Yes.\n   - Is 24 \u2264 26? Yes.\n   - Therefore, meets age requirement \u2192 **true**\n\n3. Age = 15 years:\n   - Is 15 \u2265 17? No.\n   - Therefore, does not meet age requirement \u2192 **false**\n\nFinal answers in order: [false, true, false]\n\n```json\n{\n  \"answers\": [false, true, false]\n}\n```",
+    "selected": [
+      "doc_checking_accounts_dark_green_account_001",
+      "doc_checking_accounts_dark_green_account_002"
+    ]
+  },
+  {
+    "correct": false,
+    "gold": [
+      0.0,
+      3.5,
+      3.5
+    ],
+    "id": "evidence-001",
+    "raw": "Rule:  \nAccording to doc_checking_accounts_gold_years_account_002, the foreign ATM withdrawal fee is $3.50 per transaction. However, this fee is **waived if the account balance is $10,000 or more at the time of the withdrawal**.\n\nWe must evaluate each customer\u2019s account balance at the time of withdrawal:\n\n1. Customer 1: Withdrawal amount = $598, Balance = $11,962  \n   - Balance ($11,962) \u2265 $10,000 \u2192 Fee waived \u2192 $0.00\n\n2. Customer 2: Withdrawal amount = $181, Balance = $9,691  \n   - Balance ($9,691) < $10,000 \u2192 Fee applies \u2192 $3.50\n\n3. Customer 3: Withdrawal amount = $355, Balance = $8,296  \n   - Balance ($8,296) < $10,000 \u2192 Fee applies \u2192 $3.50\n\nNote: The withdrawal amount itself does not affect the fee; only the account balance at the time of withdrawal determines whether the fee is waived. Third-party fees are excluded as requested.\n\nFinal fee amounts in the given order: $0.00, $3.50, $3.50\n\n{\n  \"answers\": [\n    0.0,\n    3.5,\n    3.5\n ",
+    "selected": [
+      "doc_checking_accounts_gold_years_account_002",
+      "doc_checking_accounts_gold_years_account_001"
+    ]
+  }
+]

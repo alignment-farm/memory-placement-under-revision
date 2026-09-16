@@ -52,7 +52,9 @@ def make_case(rng, idx, family, shifted, version, prefix):
             support={1:["light_green_account_002"],2:["dark_green_account_001","dark_green_account_002"],3:["gold_years_account_001","gold_years_account_002"]}[family]
     else:
         maxima={0:450,1:149,2:299,3:599}
-        values=rng.sample(range(20,maxima[family]),3)
+        # The source does not specify half-cent rounding. Even dollar amounts
+        # make the 2.5% fee exact in cents, avoiding an invented policy rule.
+        values=rng.sample(range(20,maxima[family],2 if family==2 else 1),3)
         balances=rng.sample(range(8000,12001),3)
         question=f"Three {account} customers each made one successful foreign ATM withdrawal on a separate day. The USD-equivalent amounts were {values} dollars, and their respective account balances at withdrawal were {balances} dollars. What Rho-Bank foreign ATM fee applies to each? Exclude third-party fees. Return dollar amounts in the given order."
         gold=([round(max(.03*x,5),2) for x in values] if family==0 else

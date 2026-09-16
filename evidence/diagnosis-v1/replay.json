@@ -1,0 +1,3270 @@
+[
+  {
+    "entity": false,
+    "rank": 2,
+    "records": [
+      {
+        "calls": 12,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-000",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_blue_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": null,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "seconds": 0.011315791998640634
+      },
+      {
+        "calls": 12,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-001",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mse": null,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "seconds": 0.010836000001290813
+      },
+      {
+        "calls": 12,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-002",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_blue_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": null,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "seconds": 0.006666542001767084
+      },
+      {
+        "calls": 12,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-003",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": null,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "seconds": 0.003780375001952052
+      },
+      {
+        "calls": 6,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-004",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.3895515085980961,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "seconds": 0.019474333996186033
+      },
+      {
+        "calls": 6,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-005",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.032367816467205594,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "seconds": 0.0034600409999256954
+      },
+      {
+        "calls": 6,
+        "converged": true,
+        "hits": {
+          "lexical": false,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-006",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mse": 0.04313513243456749,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "seconds": 0.004337042002589442
+      },
+      {
+        "calls": 6,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-007",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mse": 0.15616886254024373,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "seconds": 0.004251459002261981
+      },
+      {
+        "calls": 4,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-008",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.02377465117836421,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "seconds": 0.0028156670014141127
+      },
+      {
+        "calls": 4,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-009",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.2868783083876346,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "seconds": 0.005211666997638531
+      },
+      {
+        "calls": 4,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-010",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_blue_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.02964622405984903,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "seconds": 0.0038779590104240924
+      },
+      {
+        "calls": 4,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-011",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.003377549088337657,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "seconds": 0.0024787089932942763
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-012",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.29258428120028646,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "seconds": 0.004210624989354983
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-013",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_blue_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.04309991728077243,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "seconds": 0.0019882500055246055
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": false,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-014",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "mse": 0.04155471067258918,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_002",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "seconds": 0.0025057080056285486
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-015",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mse": 0.007726939641283754,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "seconds": 0.002891541997087188
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-000",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_blue_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.04276309226012817,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "seconds": 0.0019288749899715185
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-001",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mse": 0.13467610819246204,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "seconds": 0.00498699999297969
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-002",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.01137082555772297,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "seconds": 0.0038565419963561
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-003",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_blue_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.07083746686253682,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "seconds": 0.001917290996061638
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-004",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.014977100210256904,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "seconds": 0.0032286659989040345
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": false,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-005",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "mse": 0.004067316718289954,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "seconds": 0.004979999997885898
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-006",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.253773952864068,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "seconds": 0.004590500000631437
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-007",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.27957719902780975,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "seconds": 0.004976750002242625
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-000",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mse": 0.026559968710897972,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "seconds": 0.0019992920133518055
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-001",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_blue_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.0436916150910791,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "seconds": 0.002129083004547283
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-002",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_blue_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_002",
+          "doc_checking_accounts_blue_account_001"
+        ],
+        "mse": 0.07996441902732358,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "seconds": 0.0009796249942155555
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-003",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.38617682737490305,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "seconds": 0.006385542001225986
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-004",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.016526042454186277,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "seconds": 0.002953792005428113
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-005",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.01238690469032471,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "seconds": 0.0031142920051934198
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-006",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.2397085208138662,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "seconds": 0.005328208004357293
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": false,
+          "mixed": true,
+          "observed": false
+        },
+        "id": "content_narrow-007",
+        "imputed": 2,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mse": 0.17270646930340325,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "seconds": 0.0031095000013010576
+      }
+    ],
+    "summary": {
+      "hits": {
+        "lexical": 28,
+        "mixed": 32,
+        "observed": 31
+      },
+      "imputed": 27,
+      "mse": 0.11212963323958888,
+      "n": 32,
+      "seconds": 0.14656667000963353
+    }
+  },
+  {
+    "entity": false,
+    "rank": 8,
+    "records": [
+      {
+        "calls": 12,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-000",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_blue_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": null,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "seconds": 0.004042082990054041
+      },
+      {
+        "calls": 12,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-001",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mse": null,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "seconds": 0.012825041994801722
+      },
+      {
+        "calls": 12,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-002",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_blue_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": null,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "seconds": 0.008030042008613236
+      },
+      {
+        "calls": 12,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-003",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": null,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "seconds": 0.00469600000360515
+      },
+      {
+        "calls": 6,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-004",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.18662600276453203,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "seconds": 0.004692625007010065
+      },
+      {
+        "calls": 6,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-005",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.012126023401792356,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "seconds": 0.002507124998373911
+      },
+      {
+        "calls": 6,
+        "converged": true,
+        "hits": {
+          "lexical": false,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-006",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mse": 0.049426204492423124,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "seconds": 0.004514707994530909
+      },
+      {
+        "calls": 6,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-007",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "mse": 0.06527567839112235,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "seconds": 0.0053263750014593825
+      },
+      {
+        "calls": 4,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-008",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.025627413114873418,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "seconds": 0.003056999994441867
+      },
+      {
+        "calls": 4,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-009",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "mse": 0.0938704262865725,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "seconds": 0.00397970799531322
+      },
+      {
+        "calls": 4,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-010",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_blue_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.012945383166777001,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "seconds": 0.006122791004600003
+      },
+      {
+        "calls": 4,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-011",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.01215935702740875,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "seconds": 0.0031528330000583082
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-012",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "mse": 0.08637447506729733,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "seconds": 0.0033142079919343814
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-013",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_blue_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.039140441280573104,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "seconds": 0.004648250003810972
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": false,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-014",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "mse": 0.020198283722551273,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_002",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "seconds": 0.004983040998922661
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-015",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mse": 0.045296927168262266,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "seconds": 0.004480625008000061
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-000",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_blue_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.022909649910019165,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "seconds": 0.006830958998762071
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-001",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mse": 0.10751157137351888,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "seconds": 0.01315108299604617
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-002",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.02816515504234913,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "seconds": 0.004884124995442107
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-003",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_blue_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.05092967818824336,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "seconds": 0.004237165994709358
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-004",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.043711777614000004,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "seconds": 0.003789082998991944
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": false,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-005",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "mse": 0.05084007104767507,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "seconds": 0.00307129199791234
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-006",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_blue_account_001"
+        ],
+        "mse": 0.09415069158443129,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "seconds": 0.0044244169985176995
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-007",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "mse": 0.11087352096811082,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "seconds": 0.004082916988409124
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-000",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mse": 0.0518741287375617,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "seconds": 0.00386324999271892
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-001",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_blue_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.02065213764904577,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "seconds": 0.006015083999955095
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-002",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_blue_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.07660525429081046,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "seconds": 0.0023827499971957877
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-003",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.31133268894457455,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "seconds": 0.018207915985840373
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-004",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.035053696131182074,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "seconds": 0.004735667011118494
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-005",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.02515802814468434,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "seconds": 0.0043640000076266006
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-006",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_light_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.10435671731529259,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "seconds": 0.004803458999958821
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": false,
+          "mixed": true,
+          "observed": false
+        },
+        "id": "content_narrow-007",
+        "imputed": 2,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.197631363187556,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "seconds": 0.00426120801421348
+      }
+    ],
+    "summary": {
+      "hits": {
+        "lexical": 28,
+        "mixed": 32,
+        "observed": 31
+      },
+      "imputed": 26,
+      "mse": 0.07074366950047288,
+      "n": 32,
+      "seconds": 0.17347683197294828
+    }
+  },
+  {
+    "entity": true,
+    "rank": 2,
+    "records": [
+      {
+        "calls": 12,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-000",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": null,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "seconds": 0.004015500002424233
+      },
+      {
+        "calls": 12,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-001",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mse": null,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "seconds": 0.011010166999767534
+      },
+      {
+        "calls": 12,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-002",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": null,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "seconds": 0.006862666996312328
+      },
+      {
+        "calls": 12,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-003",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": null,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "seconds": 0.003899417002685368
+      },
+      {
+        "calls": 6,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-004",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_light_green_account_013"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_002"
+        ],
+        "mse": 0.3728336469449111,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "seconds": 0.0182608339964645
+      },
+      {
+        "calls": 6,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-005",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.036892609103420106,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "seconds": 0.002718000003369525
+      },
+      {
+        "calls": 6,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-006",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mse": 0.04154831840039067,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "seconds": 0.0037317499954951927
+      },
+      {
+        "calls": 6,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-007",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_light_green_account_013"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "mse": 0.2320707330591626,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_light_green_account_013"
+        ],
+        "seconds": 0.005099582995171659
+      },
+      {
+        "calls": 4,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-008",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.04015169757323469,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "seconds": 0.005354332999559119
+      },
+      {
+        "calls": 4,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-009",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_light_green_account_013"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "mse": 0.10879058022000405,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_light_green_account_013"
+        ],
+        "seconds": 0.014072541991481557
+      },
+      {
+        "calls": 4,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-010",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.01543274109716701,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "seconds": 0.006664000000455417
+      },
+      {
+        "calls": 4,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-011",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.08385535792101659,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "seconds": 0.0047447499964619055
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-012",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_light_green_account_013"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "mse": 0.17326629728809614,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_light_green_account_013"
+        ],
+        "seconds": 0.005248292000032961
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-013",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.01848828278859667,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "seconds": 0.0053840829932596534
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-014",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mse": 0.06963431127755337,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "seconds": 0.0073303749959450215
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-015",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mse": 0.1051945896276622,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "seconds": 0.008753125002840534
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-000",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.015823955146460244,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "seconds": 0.005670459009706974
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-001",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mse": 0.0978179500215176,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "seconds": 0.006791624997276813
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-002",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.05567680979114303,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "seconds": 0.005935708002652973
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-003",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.04563465000982605,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "seconds": 0.004855000006500632
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-004",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.05442701491821495,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "seconds": 0.0041990840109065175
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-005",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mse": 0.06707699021904073,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "seconds": 0.006813375002820976
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-006",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_light_green_account_013"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.23590839156218082,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_light_green_account_013"
+        ],
+        "seconds": 0.005540375001146458
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-007",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_light_green_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "mse": 0.19496120362671515,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_light_green_account_001"
+        ],
+        "seconds": 0.004120708996197209
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-000",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mse": 0.08745001276815764,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "seconds": 0.005729708995204419
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-001",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.01584434260543161,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "seconds": 0.005814249991090037
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-002",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.07897050929266582,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "seconds": 0.0026602090074447915
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-003",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_light_green_account_013"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "mse": 0.17505828430028098,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_green_account_(checking)_001"
+        ],
+        "seconds": 0.009868209002888761
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-004",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.044085308752348534,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "seconds": 0.005740583001170307
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-005",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.05333155552635134,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "seconds": 0.006026999995810911
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-006",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_light_green_account_013"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "mse": 0.22709829228181752,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_light_green_account_013"
+        ],
+        "seconds": 0.0073183749918825924
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-007",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mse": 0.10565847452337841,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "seconds": 0.004377624994958751
+      }
+    ],
+    "summary": {
+      "hits": {
+        "lexical": 32,
+        "mixed": 32,
+        "observed": 32
+      },
+      "imputed": 13,
+      "mse": 0.10189224680881234,
+      "n": 32,
+      "seconds": 0.20461171297938563
+    }
+  },
+  {
+    "entity": true,
+    "rank": 8,
+    "records": [
+      {
+        "calls": 12,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-000",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": null,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "seconds": 0.003987791991676204
+      },
+      {
+        "calls": 12,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-001",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mse": null,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "seconds": 0.01271745799749624
+      },
+      {
+        "calls": 12,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-002",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": null,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "seconds": 0.007991999998921528
+      },
+      {
+        "calls": 12,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-003",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": null,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "seconds": 0.004655874989111908
+      },
+      {
+        "calls": 6,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-004",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_light_green_account_013"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "mse": 0.1276772669746373,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "seconds": 0.0034820000000763685
+      },
+      {
+        "calls": 6,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-005",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.011266239985754828,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "seconds": 0.004101999991689809
+      },
+      {
+        "calls": 6,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-006",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mse": 0.04089885418420864,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "seconds": 0.007571542009827681
+      },
+      {
+        "calls": 6,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-007",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_light_green_account_013"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "mse": 0.07196049813803872,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_light_green_account_013"
+        ],
+        "seconds": 0.004612999997334555
+      },
+      {
+        "calls": 4,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-008",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.03683722679821337,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "seconds": 0.008119082995108329
+      },
+      {
+        "calls": 4,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-009",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_light_green_account_013"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "mse": 0.1081228965225988,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_light_green_account_013"
+        ],
+        "seconds": 0.004125958002987318
+      },
+      {
+        "calls": 4,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-010",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.009640918982165424,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "seconds": 0.00792225000623148
+      },
+      {
+        "calls": 4,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-011",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.03142859111228066,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "seconds": 0.006929415991180576
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-012",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_light_green_account_013"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.0790713848451769,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_light_green_account_013"
+        ],
+        "seconds": 0.0044247920013731346
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-013",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.015015449567363214,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "seconds": 0.007133208011509851
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-014",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mse": 0.04886587484565042,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "seconds": 0.016614749998552725
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "acquire-015",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mse": 0.09839428315650992,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "seconds": 0.01215875000343658
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-000",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.029872650912500947,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "seconds": 0.007123999996110797
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-001",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mse": 0.10155907591822114,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "seconds": 0.010435125004732981
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-002",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.04698904863593464,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "seconds": 0.011568709000130184
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-003",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.044238021068433137,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "seconds": 0.00448383299226407
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-004",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.06877569711197279,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "seconds": 0.007330874999752268
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-005",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mse": 0.06847442186000528,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "seconds": 0.012823333003325388
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-006",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_light_green_account_013"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.10746983342009354,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_light_green_account_013"
+        ],
+        "seconds": 0.005597291004960425
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "stable-007",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_light_green_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.11141257748030226,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_light_green_account_001"
+        ],
+        "seconds": 0.005002499994589016
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-000",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mse": 0.0991018631108431,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "seconds": 0.011870707996422425
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-001",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_002"
+        ],
+        "mse": 0.028562473537422972,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "seconds": 0.006784333003452048
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-002",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "mixed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.08645432629477932,
+        "observed": [
+          "doc_checking_accounts_blue_account_001",
+          "doc_checking_accounts_blue_account_012"
+        ],
+        "seconds": 0.0028302499995334074
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-003",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_light_green_account_013"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_dark_green_account_001"
+        ],
+        "mse": 0.0973283492708959,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_green_account_(checking)_001"
+        ],
+        "seconds": 0.018157999991672114
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-004",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.07343334055089092,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "seconds": 0.015098167001269758
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-005",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mixed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.047811965517219085,
+        "observed": [
+          "doc_checking_accounts_gold_years_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "seconds": 0.00752483299584128
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-006",
+        "imputed": 1,
+        "lexical": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_light_green_account_013"
+        ],
+        "mixed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_gold_years_account_001"
+        ],
+        "mse": 0.13993049606101948,
+        "observed": [
+          "doc_checking_accounts_light_green_account_002",
+          "doc_checking_accounts_light_green_account_013"
+        ],
+        "seconds": 0.007212458003778011
+      },
+      {
+        "calls": 3,
+        "converged": true,
+        "hits": {
+          "lexical": true,
+          "mixed": true,
+          "observed": true
+        },
+        "id": "content_narrow-007",
+        "imputed": 0,
+        "lexical": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mixed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "mse": 0.14176307174333388,
+        "observed": [
+          "doc_checking_accounts_dark_green_account_001",
+          "doc_checking_accounts_dark_green_account_002"
+        ],
+        "seconds": 0.011357750001479872
+      }
+    ],
+    "summary": {
+      "hits": {
+        "lexical": 32,
+        "mixed": 32,
+        "observed": 32
+      },
+      "imputed": 12,
+      "mse": 0.07044131062880238,
+      "n": 32,
+      "seconds": 0.2617520389758283
+    }
+  }
+]

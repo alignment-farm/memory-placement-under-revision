@@ -47,7 +47,7 @@ def replay(rows,rank,entity):
                 n=len(records),imputed=sum(r['imputed'] for r in records),mse=float(np.mean([r['mse'] for r in records if r['mse'] is not None])),seconds=sum(r['seconds'] for r in records)))
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('--source',default='evidence/development-v3');p.add_argument('--output',default='evidence/diagnosis-v1');p.add_argument('--answers',action='store_true');args=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('--source',default='evidence/development-v3');p.add_argument('--output',default='evidence/diagnosis-v1');p.add_argument('--answers',action='store_true');p.add_argument('--extended',action='store_true');args=p.parse_args()
     out=Path(args.output);out.mkdir(parents=True,exist_ok=True)
     rows=[json.loads(s) for s in (Path(args.source)/'results.jsonl').read_text().splitlines()]
     if not args.answers:
@@ -57,12 +57,13 @@ if __name__=='__main__':
     else:
         # Fix a mix of errors and successes; no fresh material is involved.
         ids=['acquire-000','acquire-002','acquire-004','acquire-006','acquire-010','stable-000','evidence-000','evidence-001']
+        if args.extended:ids=['evidence-001','evidence-002','evidence-003','evidence-005','content_broad-004','content_broad-006','combined-004','combined-007']
         selected=[r for r in rows if r['case']['id'] in ids]
         rt=Runtime(out);results=[]
         for row in selected:
             c=row['case'];docs=documents(c['version']);scores=priorities(docs,c['question'],True)
             mids=sorted(scores,key=lambda m:(-scores[m],m))[:2]
             context='\n\n'.join(document_text(d) for d in docs if d['id'] in mids)
-            call=rt.call('answer',ANSWER_PREFIX+context,c['question']+'\nShow the applicable numeric rule and all three calculations before your final JSON; do not skip them.',320)
+            call=rt.call('answer',ANSWER_PREFIX+context,c['question']+'\nShow the applicable numeric rule and all three calculations before your final JSON; do not skip them.',512 if args.extended else 320)
             results.append(dict(id=c['id'],gold=c['gold'],raw=call['raw'],selected=mids,correct=correct(parse_answer(call['raw']),c['gold'])))
         dump_json(out/'answer-repair.json',results);print(json.dumps(results,indent=2))
