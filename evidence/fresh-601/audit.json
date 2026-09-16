@@ -1,0 +1,172 @@
+{
+  "competing_samples": 0,
+  "failures": [
+    {
+      "answer": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "arm": "full_rerank",
+      "call": 655,
+      "case": "evidence-003",
+      "gold": [
+        4.8,
+        5.75,
+        5.0
+      ],
+      "support": true
+    },
+    {
+      "answer": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "arm": "full_context",
+      "call": 656,
+      "case": "evidence-003",
+      "gold": [
+        4.8,
+        5.75,
+        5.0
+      ],
+      "support": true
+    },
+    {
+      "answer": [
+        6.8,
+        6.0,
+        6.0
+      ],
+      "arm": "full_context",
+      "call": 688,
+      "case": "evidence-005",
+      "gold": [
+        6,
+        5.25,
+        5.1
+      ],
+      "support": true
+    },
+    {
+      "answer": null,
+      "arm": "earm_retain",
+      "call": 764,
+      "case": "combined-002",
+      "gold": [
+        2.0,
+        3.5,
+        3.5
+      ],
+      "support": true
+    },
+    {
+      "answer": null,
+      "arm": "earm_invalidate",
+      "call": 764,
+      "case": "combined-002",
+      "gold": [
+        2.0,
+        3.5,
+        3.5
+      ],
+      "support": true
+    },
+    {
+      "answer": [
+        6.0,
+        6.85,
+        6.0
+      ],
+      "arm": "full_context",
+      "call": 817,
+      "case": "combined-005",
+      "gold": [
+        2.6,
+        6,
+        0.7
+      ],
+      "support": true
+    },
+    {
+      "answer": null,
+      "arm": "earm_retain",
+      "call": 830,
+      "case": "combined-006",
+      "gold": [
+        5,
+        5,
+        11.19
+      ],
+      "support": true
+    },
+    {
+      "answer": null,
+      "arm": "earm_invalidate",
+      "call": 830,
+      "case": "combined-006",
+      "gold": [
+        5,
+        5,
+        11.19
+      ],
+      "support": true
+    },
+    {
+      "answer": null,
+      "arm": "earm_retain",
+      "call": 846,
+      "case": "combined-007",
+      "gold": [
+        11.64,
+        5,
+        11.79
+      ],
+      "support": true
+    }
+  ],
+  "physical_calls": 850,
+  "requests": 56,
+  "saved_states": 12,
+  "score_support_note": "Gold source IDs used only here and in post-ranking diagnostics.",
+  "source_revision": "661fedfdd06d6232789d36f791eb0056d1669aff",
+  "status": "passed",
+  "truncations": [
+    {
+      "arm": "earm_retain",
+      "call": 717,
+      "case": "evidence-007"
+    },
+    {
+      "arm": "earm_invalidate",
+      "call": 717,
+      "case": "evidence-007"
+    },
+    {
+      "arm": "earm_retain",
+      "call": 764,
+      "case": "combined-002"
+    },
+    {
+      "arm": "earm_invalidate",
+      "call": 764,
+      "case": "combined-002"
+    },
+    {
+      "arm": "earm_retain",
+      "call": 830,
+      "case": "combined-006"
+    },
+    {
+      "arm": "earm_invalidate",
+      "call": 830,
+      "case": "combined-006"
+    },
+    {
+      "arm": "earm_retain",
+      "call": 846,
+      "case": "combined-007"
+    }
+  ]
+}

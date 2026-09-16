@@ -1,0 +1,35 @@
+{
+  "args": {
+    "after": 8,
+    "answer_limit": 512,
+    "entity": true,
+    "exclude": [
+      "evidence/development-v3/evaluation-only.json"
+    ],
+    "explain": true,
+    "initial": 16,
+    "output": "evidence/fresh-601",
+    "rank": 8,
+    "seed": 601,
+    "top_k": 2
+  },
+  "earm": {
+    "block_size": 4,
+    "budgets": [
+      12,
+      6,
+      4,
+      3
+    ],
+    "l2": 0.1,
+    "max_iterations": 500,
+    "rank": 8,
+    "seed": 601,
+    "semantic_anchor_fraction": 0.5,
+    "tolerance": 1e-06
+  },
+  "git_revision": "661fedfdd06d6232789d36f791eb0056d1669aff",
+  "model_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "source_dirty": "",
+  "started": 1789556196.444916
+}
