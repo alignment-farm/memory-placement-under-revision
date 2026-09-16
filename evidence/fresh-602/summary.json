@@ -1,0 +1,17 @@
+{
+  "accuracy": {
+    "bm25": 0.9861111111111112,
+    "earm_invalidate": 0.9305555555555556,
+    "earm_retain": 0.9305555555555556,
+    "full_context": 0.9861111111111112,
+    "full_rerank": 1.0,
+    "observed": 0.9722222222222222
+  },
+  "cases": 72,
+  "load_seconds": 0.6826100420003058,
+  "peak_bytes": 13339611224,
+  "physical_model_calls": 1086,
+  "seconds": 1496.6196554579947,
+  "status": "complete",
+  "wait_seconds": 0.0
+}

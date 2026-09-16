@@ -1,0 +1,36 @@
+{
+  "args": {
+    "after": 8,
+    "answer_limit": 512,
+    "entity": true,
+    "exclude": [
+      "evidence/development-v3/evaluation-only.json",
+      "evidence/fresh-601/evaluation-only.json"
+    ],
+    "explain": true,
+    "initial": 32,
+    "output": "evidence/fresh-602",
+    "rank": 8,
+    "seed": 602,
+    "top_k": 2
+  },
+  "earm": {
+    "block_size": 4,
+    "budgets": [
+      12,
+      6,
+      4,
+      3
+    ],
+    "l2": 0.1,
+    "max_iterations": 500,
+    "rank": 8,
+    "seed": 602,
+    "semantic_anchor_fraction": 0.5,
+    "tolerance": 1e-06
+  },
+  "git_revision": "8ce3332790688ea7a18d7fd95e7c5a4066b04f8d",
+  "model_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+  "source_dirty": "?? evidence/fresh-601/\n?? notes/fresh-interpretation-limits.md\n?? notes/reproduction.md\n",
+  "started": 1789557433.631505
+}

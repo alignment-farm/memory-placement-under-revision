@@ -1,0 +1,248 @@
+{
+  "competing_samples": 0,
+  "failures": [
+    {
+      "answer": [
+        null,
+        null,
+        null
+      ],
+      "arm": "earm_invalidate",
+      "call": 631,
+      "case": "content_narrow-002",
+      "gold": [
+        false,
+        false,
+        false
+      ],
+      "support": false
+    },
+    {
+      "answer": [
+        null,
+        null,
+        null
+      ],
+      "arm": "earm_retain",
+      "call": 784,
+      "case": "content_broad-004",
+      "gold": [
+        false,
+        false,
+        false
+      ],
+      "support": false
+    },
+    {
+      "answer": null,
+      "arm": "earm_retain",
+      "call": 938,
+      "case": "evidence-006",
+      "gold": [
+        11.76,
+        11.37,
+        5.01
+      ],
+      "support": true
+    },
+    {
+      "answer": null,
+      "arm": "earm_invalidate",
+      "call": 938,
+      "case": "evidence-006",
+      "gold": [
+        11.76,
+        11.37,
+        5.01
+      ],
+      "support": true
+    },
+    {
+      "answer": null,
+      "arm": "earm_retain",
+      "call": 954,
+      "case": "evidence-007",
+      "gold": [
+        5,
+        5,
+        5
+      ],
+      "support": true
+    },
+    {
+      "answer": null,
+      "arm": "observed",
+      "call": 954,
+      "case": "evidence-007",
+      "gold": [
+        5,
+        5,
+        5
+      ],
+      "support": true
+    },
+    {
+      "answer": null,
+      "arm": "earm_invalidate",
+      "call": 954,
+      "case": "evidence-007",
+      "gold": [
+        5,
+        5,
+        5
+      ],
+      "support": true
+    },
+    {
+      "answer": null,
+      "arm": "earm_retain",
+      "call": 1001,
+      "case": "combined-002",
+      "gold": [
+        5,
+        5,
+        5
+      ],
+      "support": true
+    },
+    {
+      "answer": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "arm": "full_context",
+      "call": 1052,
+      "case": "combined-005",
+      "gold": [
+        1.8,
+        2.45,
+        4.0
+      ],
+      "support": true
+    },
+    {
+      "answer": null,
+      "arm": "earm_retain",
+      "call": 1065,
+      "case": "combined-006",
+      "gold": [
+        2.0,
+        2.0,
+        2.0
+      ],
+      "support": true
+    },
+    {
+      "answer": null,
+      "arm": "earm_invalidate",
+      "call": 1065,
+      "case": "combined-006",
+      "gold": [
+        2.0,
+        2.0,
+        2.0
+      ],
+      "support": true
+    },
+    {
+      "answer": null,
+      "arm": "observed",
+      "call": 1082,
+      "case": "combined-007",
+      "gold": [
+        11.85,
+        7.86,
+        11.7
+      ],
+      "support": true
+    },
+    {
+      "answer": null,
+      "arm": "earm_invalidate",
+      "call": 1083,
+      "case": "combined-007",
+      "gold": [
+        11.85,
+        7.86,
+        11.7
+      ],
+      "support": true
+    },
+    {
+      "answer": null,
+      "arm": "bm25",
+      "call": 1082,
+      "case": "combined-007",
+      "gold": [
+        11.85,
+        7.86,
+        11.7
+      ],
+      "support": true
+    }
+  ],
+  "physical_calls": 1086,
+  "requests": 72,
+  "saved_states": 12,
+  "score_support_note": "Gold source IDs used only here and in post-ranking diagnostics.",
+  "source_revision": "8ce3332790688ea7a18d7fd95e7c5a4066b04f8d",
+  "status": "passed",
+  "truncations": [
+    {
+      "arm": "earm_retain",
+      "call": 938,
+      "case": "evidence-006"
+    },
+    {
+      "arm": "earm_invalidate",
+      "call": 938,
+      "case": "evidence-006"
+    },
+    {
+      "arm": "earm_retain",
+      "call": 954,
+      "case": "evidence-007"
+    },
+    {
+      "arm": "observed",
+      "call": 954,
+      "case": "evidence-007"
+    },
+    {
+      "arm": "earm_invalidate",
+      "call": 954,
+      "case": "evidence-007"
+    },
+    {
+      "arm": "earm_retain",
+      "call": 1001,
+      "case": "combined-002"
+    },
+    {
+      "arm": "earm_retain",
+      "call": 1065,
+      "case": "combined-006"
+    },
+    {
+      "arm": "earm_invalidate",
+      "call": 1065,
+      "case": "combined-006"
+    },
+    {
+      "arm": "observed",
+      "call": 1082,
+      "case": "combined-007"
+    },
+    {
+      "arm": "earm_invalidate",
+      "call": 1083,
+      "case": "combined-007"
+    },
+    {
+      "arm": "bm25",
+      "call": 1082,
+      "case": "combined-007"
+    }
+  ]
+}
